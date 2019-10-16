@@ -1,7 +1,7 @@
 var x = 0;
 var dir = 1;
 var speed = 0;
-var acc = 0.1;
+var acc = 0.2;
 var maxSpeed;
 
 function setup() {
