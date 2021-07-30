@@ -10,7 +10,7 @@ function setup() {
 	rectMode(CENTER);
 	colorMode(HSB, 360,255,255);
 	maxSpeed = (Math.min(height, width) / 4) * 2 * acc;
-	maxSpeed = Math.sqrt(maxSpeed);
+	Math.floor(Math.sqrt(maxSpeed));
 	
 }
 
