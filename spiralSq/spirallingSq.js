@@ -6,7 +6,7 @@ var maxSpeed;
 
 function setup() {
 	createCanvas(windowWidth, windowHeight);
-	background(255);
+	background("#260a5e");
 	rectMode(CENTER);
 	colorMode(HSB, 360,255,255);
 	maxSpeed = (Math.min(height, width) / 4) * 2 * acc;
@@ -15,7 +15,7 @@ function setup() {
 }
 
 function draw() {
-	background(0);
+	background("#260a5e");
 	translate(width/2, height/2);
 	rotate(radians(frameCount));
 	
